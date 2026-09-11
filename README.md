@@ -2,6 +2,8 @@
 
 RadiaX is an open-source desktop micro CT platform created from scratch using custom hardware, software, and mechanics.
 
+![RadiaX CT](pictures/asemasem_2026-Aug-04_02-31-56AM-000_CustomizedView5246807532_jpg%20%282%29.jpg)
+
 The system combines a custom FPGA platform, a custom ARM-based computing platform, a custom flat-panel X-ray detector, and a modular mechanical system into a single research-oriented CT platform.
 
 ## Hardware
@@ -17,10 +19,14 @@ Key features include:
 - Rockchip RK3566 ARM SoC
 - LPDDR4-2133 memory
 - eMMC storage
+- PCIe 2.1 x1
 - USB 3.x
 - HDMI
 - MIPI-DSI display interface
 - Gigabit Ethernet
+- Custom power architecture and power monitoring
+- BGA fanout and via-in-pad
+- Controlled-impedance high-speed routing
 
 The RK3566 platform provides the main embedded computing interface between the scanner hardware, FPGA subsystem, detector and software stack.
 
@@ -37,6 +43,10 @@ A custom flat-panel X-ray detector is being developed using a scintillator-based
 The scanner uses a modular custom mechanical design developed specifically for the desktop CT architecture.
 
 ## Pictures
+
+### RadiaX
+
+![RadiaX CT](pictures/asemasem_2026-Aug-04_02-31-56AM-000_CustomizedView5246807532_jpg%20%282%29.jpg)
 
 ### RK3566 Computing Platform
 
