@@ -40,7 +40,7 @@ A custom **scintillator-based CIS detector** is being developed specifically for
 
 The current detector is a **rough proof-of-concept prototype** combining a CIS imaging sensor, scintillator and optical/mechanical integration to validate the detector concept and imaging geometry.
 
-![CIS Detector Prototype](pictures/Screenshot%202026-09-18%20190136.png)
+![CIS Detector Prototype](pictures/Scanner.jpg)
 
 The **detector concept and hardware approach are nearing completion**, with a larger custom CIS-based scanner planned as the next iteration.
 
