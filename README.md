@@ -14,7 +14,7 @@ RadiaX combines custom X-ray hardware, embedded computing, FPGA acceleration, a 
 
 RadiaX uses a custom **Rockchip RK3566** computing platform for scanner control, data handling and the software stack.
 
-The 8-layer custom PCB integrates LPDDR4, eMMC, PCIe, USB 3.x, HDMI, MIPI-DSI, Gigabit Ethernet and custom power monitoring.
+The 8-layer custom PCB integrates **LPDDR4, eMMC, PCIe, USB 3.x, HDMI, MIPI-DSI, Gigabit Ethernet and custom power monitoring**.
 
 ![RK3566 SBC](pictures/Screenshot%202026-09-10%20222655.png)
 
@@ -26,7 +26,7 @@ The FPGA architecture is intended to support future **AI acceleration and hardwa
 
 RadiaX uses a custom **dual-tube X-ray architecture** designed for different imaging regimes.
 
-The X-ray head and supporting electronics are developed in-house, including high-voltage generation, filament power, control electronics and mechanical integration.
+The X-ray head and supporting electronics are developed in-house, including **high-voltage generation, filament power, control electronics and mechanical integration**.
 
 The tube enclosure incorporates **high-voltage isolation and mineral-oil cooling**, combining dielectric insulation with passive thermal management.
 
@@ -36,11 +36,13 @@ A **monoblock magnetic filter** is being developed to reduce unwanted low-energy
 
 ### Custom X-ray Detector
 
-A custom scintillator-based X-ray detector is being developed specifically for RadiaX.
+A custom **scintillator-based CIS detector** is being developed specifically for RadiaX.
 
-The detector combines **CIS/CMOS imaging circuitry, scintillator optics and custom mechanical integration** rather than relying on a conventional commercial CT detector.
+The current detector is a **rough proof-of-concept prototype** combining a CIS imaging sensor, scintillator and optical/mechanical integration to validate the detector concept and imaging geometry.
 
-A larger custom CIS-based scanner is currently in development.
+![CIS Detector Prototype](pictures/Screenshot%202026-09-18%20190136.png)
+
+The **detector concept and hardware approach are nearing completion**, with a larger custom CIS-based scanner planned as the next iteration.
 
 ### Modular Mechanics
 
@@ -48,11 +50,12 @@ The scanner uses a modular mechanical architecture designed specifically around 
 
 The Mark 2 mechanical system incorporates:
 
-* **3-axis kinematic object positioning**
-* Motorized rotational and linear positioning
-* Custom X-ray head and detector mounts
-* Modular aluminum extrusion and panel construction
-* Custom structural components and interfaces
+- **3-axis kinematic object positioning**
+- Motorized rotational and linear positioning
+- Custom X-ray head and detector mounts
+- Modular aluminum extrusion and panel construction
+- Custom structural components and interfaces
+- Direct drivetrain coupling for the rotational system
 
 Structural design is supported by **component-level, static and dynamic FEA**, including stress, deflection and modal analysis.
 
@@ -62,13 +65,13 @@ Mass-center and load-distribution analysis is also used to maintain stable weigh
 
 ## AI & Reconstruction
 
-RadiaX is being designed around a hardware-accelerated reconstruction pipeline.
+RadiaX is being designed around a **hardware-accelerated reconstruction pipeline**.
 
 The future FPGA platform is intended to accelerate computationally intensive parts of the imaging pipeline, with **AI-based image processing and reconstruction** planned alongside conventional reconstruction methods.
 
 ## Supported By
 
-RadiaX has received support from **Radiacode**, contributing radiation-detectors.
+RadiaX has received support from **Radiacode**, contributing radiation-detection technology to the project.
 
 [Radiacode](https://radiacode.com/)
 
@@ -76,17 +79,18 @@ RadiaX has received support from **Radiacode**, contributing radiation-detectors
 
 RadiaX is actively under development.
 
-| Subsystem                 | Status         |
-| ------------------------- | -------------- |
-| RK3566 computing platform | Prototype      |
-| X-ray system              | Prototype      |
-| Dual-tube architecture    | Prototype      |
-| Custom detector           | In development |
-| CIS scanner               | In development |
-| Kintex-7 FPGA platform    | In development |
-| Modular mechanical system | REV. 2         |
-| FEA & structural analysis | Active         |
-| AI / reconstruction       | In development |
+| Subsystem | Status |
+|---|---|
+| RK3566 computing platform | Prototype |
+| X-ray system | Prototype |
+| Dual-tube architecture | Prototype |
+| Custom detector concept | Nearly complete |
+| CIS detector | Rough proof-of-concept |
+| Larger CIS scanner | In development |
+| Kintex-7 FPGA platform | In development |
+| Modular mechanical system | REV. 2 |
+| FEA & structural analysis | Active |
+| AI / reconstruction | In development |
 
 Design files, measurements and technical documentation will be published as they are cleaned up and finalized.
 
