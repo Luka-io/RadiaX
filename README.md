@@ -79,12 +79,12 @@ RadiaX is actively under development.
 | Subsystem                 | Status         |
 | ------------------------- | -------------- |
 | RK3566 computing platform | Prototype      |
-| X-ray system              | In development |
-| Dual-tube architecture    | In development |
+| X-ray system              | Prototype      |
+| Dual-tube architecture    | Prototype      |
 | Custom detector           | In development |
 | CIS scanner               | In development |
 | Kintex-7 FPGA platform    | In development |
-| Modular mechanical system | Mark 2         |
+| Modular mechanical system | REV. 2         |
 | FEA & structural analysis | Active         |
 | AI / reconstruction       | In development |
 
