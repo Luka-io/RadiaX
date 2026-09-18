@@ -100,4 +100,4 @@ Design files, measurements and technical documentation will be published as they
 
 **Luka & Marco**
 
-Two students developing the complete platform together — from X-ray hardware and custom electronics to the detector, FPGA, software, mechanical systems and structural analysis.
+Two students developing the complete platform together
