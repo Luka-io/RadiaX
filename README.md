@@ -2,7 +2,7 @@
 
 **Open-source desktop micro-CT platform built from scratch by two students.**
 
-RadiaX combines custom X-ray hardware, FPGA acceleration, embedded computing, a custom X-ray detector, and modular precision mechanics into a single research-oriented CT platform.
+RadiaX combines custom X-ray hardware, embedded computing, FPGA acceleration, a custom X-ray detector, and modular precision mechanics into a research-oriented CT platform.
 
 ![RadiaX CT](pictures/asemasem_2026-Aug-04_02-31-56AM-000_CustomizedView5246807532_jpg%20%282%29.jpg)
 
@@ -10,53 +10,65 @@ RadiaX combines custom X-ray hardware, FPGA acceleration, embedded computing, a 
 
 ## Hardware
 
-### Custom Hardware Platform
+### Computing & FPGA Platform
 
-RadiaX is built around custom hardware rather than development-board assemblies.
+RadiaX uses a custom **Rockchip RK3566** computing platform for scanner control, data handling and the software stack.
 
-The platform combines a **Kintex-7 FPGA system** for high-speed acquisition and processing with a custom **Rockchip RK3566** ARM computer for system control, data handling and the software stack.
-
-The RK3566 computer is an 8-layer custom PCB designed specifically for RadiaX, including LPDDR4, eMMC, PCIe, USB 3.x, HDMI, MIPI-DSI, Gigabit Ethernet and custom power monitoring.
+The 8-layer custom PCB integrates LPDDR4, eMMC, PCIe, USB 3.x, HDMI, MIPI-DSI, Gigabit Ethernet and custom power monitoring.
 
 ![RK3566 SBC](pictures/Screenshot%202026-09-10%20222655.png)
 
-The FPGA platform provides the hardware foundation for high-speed detector acquisition, signal processing and future **AI-accelerated reconstruction and image processing**.
+A separate **Kintex-7 FPGA platform** is currently in development for high-speed detector acquisition, signal processing and hardware-accelerated reconstruction.
+
+The FPGA architecture is intended to support future **AI acceleration and hardware/software co-processing**.
 
 ### X-ray System
 
-RadiaX uses a custom **dual-tube X-ray architecture** designed to support different imaging requirements.
+RadiaX uses a custom **dual-tube X-ray architecture** designed for different imaging regimes.
 
-The X-ray head and its supporting electronics are developed in-house, including high-voltage generation, filament power, control electronics and the internal mechanical structure.
+The X-ray head and supporting electronics are developed in-house, including high-voltage generation, filament power, control electronics and mechanical integration.
+
+The tube enclosure incorporates **high-voltage isolation and mineral-oil cooling**, combining dielectric insulation with passive thermal management.
 
 ![X-ray Head Internals](pictures/X-Ray_head_2026-Sep-12_04-07-46PM-000_CustomizedView2150125544_jpg.jpg)
+
+A **monoblock magnetic filter** is being developed to reduce unwanted low-energy X-ray components before they reach the imaging system.
 
 ### Custom X-ray Detector
 
 A custom scintillator-based X-ray detector is being developed specifically for RadiaX.
 
-The detector combines custom **CIS/CMOS imaging circuitry**, scintillator optics and mechanical integration rather than relying on a conventional commercial CT detector.
+The detector combines **CIS/CMOS imaging circuitry, scintillator optics and custom mechanical integration** rather than relying on a conventional commercial CT detector.
 
-A larger custom CIS-based scanner and detector electronics are currently under development.
+A larger custom CIS-based scanner is currently in development.
 
 ### Modular Mechanics
 
-The mechanical system is designed around the CT geometry and developed as a modular platform.
+The scanner uses a modular mechanical architecture designed specifically around the CT geometry.
 
-It includes custom structural components, motion systems, X-ray head integration and precision detector positioning.
+The Mark 2 mechanical system incorporates:
 
-**Custom FEA simulations** are used to validate mechanical structures and guide the design before fabrication.
+* **3-axis kinematic object positioning**
+* Motorized rotational and linear positioning
+* Custom X-ray head and detector mounts
+* Modular aluminum extrusion and panel construction
+* Custom structural components and interfaces
+
+Structural design is supported by **component-level, static and dynamic FEA**, including stress, deflection and modal analysis.
+
+Natural-frequency simulations are used to investigate structural resonance and vibration from the motion system during long rotational scans.
+
+Mass-center and load-distribution analysis is also used to maintain stable weight distribution across the rotating and stationary structures.
 
 ## AI & Reconstruction
 
-RadiaX is being designed with hardware-accelerated reconstruction and image processing in mind.
+RadiaX is being designed around a hardware-accelerated reconstruction pipeline.
 
-The FPGA platform provides a foundation for future **custom reconstruction pipelines, AI acceleration and hardware/software co-processing**.
-
-The goal is to move computationally intensive parts of the CT pipeline closer to the acquisition hardware rather than treating the FPGA as only a data interface.
+The future FPGA platform is intended to accelerate computationally intensive parts of the imaging pipeline, with **AI-based image processing and reconstruction** planned alongside conventional reconstruction methods.
 
 ## Supported By
 
-RadiaX has received support from **Radiacode**, whose radiation-detection technology and expertise have contributed to the project's development.
+RadiaX has received support from **Radiacode**, contributing radiation-detectors.
 
 [Radiacode](https://radiacode.com/)
 
@@ -64,7 +76,17 @@ RadiaX has received support from **Radiacode**, whose radiation-detection techno
 
 RadiaX is actively under development.
 
-The FPGA platform, embedded computer, X-ray system, custom detector, software, AI/reconstruction pipeline and mechanical systems are being developed in parallel.
+| Subsystem                 | Status         |
+| ------------------------- | -------------- |
+| RK3566 computing platform | Prototype      |
+| X-ray system              | In development |
+| Dual-tube architecture    | In development |
+| Custom detector           | In development |
+| CIS scanner               | In development |
+| Kintex-7 FPGA platform    | In development |
+| Modular mechanical system | Mark 2         |
+| FEA & structural analysis | Active         |
+| AI / reconstruction       | In development |
 
 Design files, measurements and technical documentation will be published as they are cleaned up and finalized.
 
@@ -74,4 +96,4 @@ Design files, measurements and technical documentation will be published as they
 
 **Luka & Marco**
 
-Two students building the complete system from the hardware and X-ray electronics to the detector, FPGA, software and custom mechanics.
+Two students developing the complete platform together — from X-ray hardware and custom electronics to the detector, FPGA, software, mechanical systems and structural analysis.
