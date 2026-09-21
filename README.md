@@ -1,6 +1,6 @@
 # RadiaX
 
-**Open-source, non-commercial desktop micro-CT project built from scratch by two students.**
+**Open-source, desktop micro-CT project built from scratch by two students.**
 
 RadiaX combines custom X-ray hardware, embedded computing, FPGA acceleration, a custom X-ray detector, and modular precision mechanics into a research-oriented CT platform.
 
