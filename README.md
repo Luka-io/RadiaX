@@ -8,12 +8,14 @@ RadiaX combines custom X-ray hardware, embedded computing, FPGA acceleration, a 
   <img src="pictures/asemasem_2026-Aug-04_02-31-56AM-000_CustomizedView5246807532_jpg%20%282%29.jpg" width="75%">
 </p>
 
-> **Built from scratch.** Custom electronics, X-ray system, detector, mechanics, FPGA platform, software and reconstruction pipeline.
+> **Built fully from scratch.** 
 
 RadiaX is a **Hack Club Stardance project**, developed as an open-source, non-commercial engineering project.
+
 ### The includet Files are not cleaned up or finished
 
 ## Repository
+
 The repository is organized around the different engineering areas of the project:
 
 ```text
@@ -40,11 +42,14 @@ A separate **Kintex-7 FPGA platform** is currently in development for high-speed
 
 The FPGA architecture is intended to support future **AI acceleration and hardware/software co-processing**.
 
+<p align="center">
+  <strong>FPGA SOM — sneak peek</strong><br>
+  <img src="pictures/top.png" width="68%">
+</p>
+
 ### X-ray System
 
-RadiaX uses a custom **dual-tube X-ray architecture** designed for different imaging regimes.
-
-The X-ray head and supporting electronics are developed in-house, including **high-voltage generation, filament power, control electronics and mechanical integration**.
+RadiaX uses a custom **dual-tube X-ray architecture** designed for different imaging needs.
 
 The tube enclosure incorporates **high-voltage isolation and mineral-oil cooling**, combining dielectric insulation with passive thermal management.
 
@@ -52,19 +57,17 @@ The tube enclosure incorporates **high-voltage isolation and mineral-oil cooling
   <img src="pictures/X-Ray_head_2026-Sep-12_04-07-46PM-000_CustomizedView2150125544_jpg.jpg" width="68%">
 </p>
 
-A **monoblock magnetic filter** is being developed to reduce unwanted low-energy X-ray components before they reach the imaging system.
+A **monoblock magnetic filter** is being developed to reduce  low-energy X-rays.
 
 ### Custom X-ray Detector
 
 A custom **scintillator-based CIS detector** is being developed specifically for RadiaX.
 
-The current detector is a **rough proof-of-concept prototype** combining a CIS imaging sensor, scintillator and optical/mechanical integration to validate the detector concept and imaging geometry.
+The current detector is a **prototype** combining a CIS imaging sensor, scintillator and optical/mechanical integration to validate the detector concept and imaging geometry. You can see it on the left side !
 
 <p align="center">
-  <img src="pictures/Scanner.jpg" width="68%">
+  <img src="pictures/CT%20bare%20right.jpg" width="68%">
 </p>
-
-The **detector concept and hardware approach are nearing completion**, with a larger custom CIS-based scanner planned as the next iteration.
 
 ### Modular Mechanics
 
@@ -123,3 +126,5 @@ Design files, measurements and technical documentation will be published as they
 **Luka & Marco**
 
 Two students developing the complete platform together.
+
+I kept the existing wording otherwise unchanged.
