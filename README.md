@@ -5,12 +5,14 @@
 RadiaX combines custom X-ray hardware, embedded computing, FPGA acceleration, a custom X-ray detector, and modular precision mechanics into a research-oriented CT platform.
 
 <p align="center">
-  <img src="pictures/asemasem_2026-Aug-04_02-31-56AM-000_CustomizedView5246807532_jpg%20%282%29.jpg" width="75%">
+<img src="pictures/asemasem_2026-Aug-04_02-31-56AM-000_CustomizedView5246807532_jpg%20%282%29.jpg"
+     width="100%"
+     style="height: 500px; object-fit: fill;">
 </p>
 
 > **Built fully from scratch.** 
 
-RadiaX is a **Hack Club Stardance project**, developed as an open-source, non-commercial engineering project.
+RadiaX is a **Hack Club Stardance project**, developed as an open-source engineering project.
 
 ### The includet Files are not cleaned up or finished
 
