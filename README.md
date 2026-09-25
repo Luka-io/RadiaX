@@ -128,5 +128,3 @@ Design files, measurements and technical documentation will be published as they
 **Luka & Marco**
 
 Two students developing the complete platform together.
-
-I kept the existing wording otherwise unchanged.
