@@ -32,38 +32,39 @@ RadiaX/
 
 ### Computing & FPGA Platform
 
-RadiaX uses a custom **Rockchip RK3566** computing platform for scanner control, data handling and the software stack.
+RadiaX uses a custom **FPGA SOM** , featuring a Kintex-7 , LPDDR3 , etc...
 
-The 8-layer custom PCB integrates **LPDDR4, eMMC, PCIe, USB 3.x, HDMI, MIPI-DSI, Gigabit Ethernet and custom power monitoring**.
+
+Planned to be used for high-speed detector acquisition, signal processing and hardware accelerated reconstruction.
 
 <p align="center">
-  <img src="pictures/Screenshot%202026-09-10%20222655.png" width="68%">
+  <strong>FPGA SOM - Minimal Render</strong><br>
+  <img src="electronics/FPGA-SOM/fpga.png" width="68%">
 </p>
 
-A separate **Kintex-7 FPGA platform** is currently in development for high-speed detector acquisition, signal processing and hardware-accelerated reconstruction.
-
-The FPGA architecture is intended to support future **AI acceleration and hardware/software co-processing**.
-
 <p align="center">
-  <strong>FPGA SOM — sneak peek</strong><br>
+  <strong>FPGA SOM - old Render with right FPGA 3D model</strong><br>
   <img src="pictures/top.png" width="68%">
 </p>
 
+### Disclamer ! The FPGA SOM (aswell as the rest of the project is still in development!)
+
+
 ### X-ray System
 
-RadiaX uses a custom **dual-tube X-ray architecture** designed for different imaging needs.
+RadiaX uses a custom **dual-tube X-ray architecture** designed for different imaging scenarios.
 
-The tube enclosure incorporates **high-voltage isolation and mineral-oil cooling**, combining dielectric insulation with passive thermal management.
+The tube enclosure includes **high-voltage isolation and mineral oil cooling**, combining dielectric insulation with passive thermal management.
 
 <p align="center">
   <img src="pictures/X-Ray_head_2026-Sep-12_04-07-46PM-000_CustomizedView2150125544_jpg.jpg" width="68%">
 </p>
 
-A **monoblock magnetic filter** is being developed to reduce  low-energy X-rays.
+A **monoblock magnetic filter** is being developed to reduce  low energy X-rays.
 
 ### Custom X-ray Detector
 
-A custom **scintillator-based CIS detector** is being developed specifically for RadiaX.
+A custom **scintillator based CIS detector** is being developed specifically for RadiaX.
 
 The current detector is a **prototype** combining a CIS imaging sensor, scintillator and optical/mechanical integration to validate the detector concept and imaging geometry. You can see it on the left side !
 
@@ -108,13 +109,13 @@ RadiaX is actively under development.
 
 | Subsystem                 | Status                 |
 | ------------------------- | ---------------------- |
-| RK3566 computing platform | Prototype              |
+|(RK3566 computing platform)| Done / replaced        |
 | X-ray system              | Prototype              |
 | Dual-tube architecture    | Prototype              |
 | Custom detector concept   | Nearly complete        |
 | CIS detector              | Rough proof-of-concept |
 | Larger CIS scanner        | In development         |
-| Kintex-7 FPGA platform    | In development         |
+| Kintex-7 FPGA platform    | Done         |
 | Modular mechanical system | REV. 2                 |
 | FEA & structural analysis | Active                 |
 | AI / reconstruction       | In development         |
