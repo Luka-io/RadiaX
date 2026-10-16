@@ -36,15 +36,21 @@ RadiaX uses a custom **FPGA SOM** , featuring a Kintex-7 , LPDDR3 , etc...
 
 
 Planned to be used for high-speed detector acquisition, signal processing and hardware accelerated reconstruction.
+If you want to order it on eg. JLCPCB , 2 assembled boards would cost roughly :
+```text
+MERCHANDISE TOTAL: $597.56
+SHIPPING CHARGE: $26.79
+ORDER TOTAL: $624.35
+```
 
 <p align="center">
   <strong>FPGA SOM - Minimal Render</strong><br>
-  <img src="electronics/FPGA-SOM/fpga.png" width="68%">
+  <img src="pictures/FPGA_TOP.png" width="68%">
 </p>
 
 <p align="center">
   <strong>FPGA SOM - old Render with right FPGA 3D model</strong><br>
-  <img src="pictures/top.png" width="68%">
+  <img src="pictures/FPGA_BOTTOM.png" width="68%">
 </p>
 
 ### Disclamer ! The FPGA SOM (aswell as the rest of the project is still in development!)
