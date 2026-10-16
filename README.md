@@ -44,12 +44,12 @@ ORDER TOTAL: $624.35
 ```
 
 <p align="center">
-  <strong>FPGA SOM - Minimal Render</strong><br>
+  <strong>FPGA SOM TOP</strong><br>
   <img src="pictures/FPGA_TOP.png" width="68%">
 </p>
 
 <p align="center">
-  <strong>FPGA SOM - old Render with right FPGA 3D model</strong><br>
+  <strong>FPGA SOM BOTTOM</strong><br>
   <img src="pictures/FPGA_BOTTOM.png" width="68%">
 </p>
 
