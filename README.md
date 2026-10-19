@@ -70,6 +70,10 @@ The tube enclosure includes **high-voltage isolation and mineral oil cooling**, 
   <img src="cad/Screenshots/Screenshot%202026-10-18%20195632.png" width="68%">
 </p>
 
+<p align="center">
+  <img src="cad/Screenshots/Screenshot%202026-10-18%20195613.png" width="68%">
+</p>
+
 A **monoblock magnetic filter** is being developed to reduce  low energy X-rays.
 
 ### Custom X-ray Detector
@@ -89,6 +93,10 @@ The current detector is a **prototype** combining a CIS imaging sensor, scintill
 ### Modular Mechanics
 
 The scanner uses a modular mechanical architecture designed specifically around the CT geometry.
+
+<p align="center">
+  <img src="cad/Screenshots/Screenshot%202026-09-20%20175046.png" width="68%">
+</p>
 
 The Mark 2 mechanical system incorporates:
 
