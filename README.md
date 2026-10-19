@@ -66,6 +66,10 @@ The tube enclosure includes **high-voltage isolation and mineral oil cooling**, 
   <img src="pictures/X-Ray_head_2026-Sep-12_04-07-46PM-000_CustomizedView2150125544_jpg.jpg" width="68%">
 </p>
 
+<p align="center">
+  <img src="cad/Screenshots/Screenshot%202026-10-18%20195632.png" width="68%">
+</p>
+
 A **monoblock magnetic filter** is being developed to reduce  low energy X-rays.
 
 ### Custom X-ray Detector
@@ -75,7 +79,11 @@ A custom **scintillator based CIS detector** is being developed specifically for
 The current detector is a **prototype** combining a CIS imaging sensor, scintillator and optical/mechanical integration to validate the detector concept and imaging geometry. You can see it on the left side !
 
 <p align="center">
-  <img src="pictures/CT%20bare%20right.jpg" width="68%">
+  <img src="cad/Screenshots/Screenshot%202026-10-18%20200615.png" width="68%">
+</p>
+
+<p align="center">
+  <img src="cad/Screenshots/Screenshot%202026-10-18%20200612.png" width="68%">
 </p>
 
 ### Modular Mechanics
