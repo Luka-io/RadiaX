@@ -61,13 +61,14 @@ ORDER TOTAL: $624.35
 RadiaX uses a custom **dual-tube X-ray architecture** designed for different imaging scenarios.
 
 The tube enclosure includes **high-voltage isolation and mineral oil cooling**, combining dielectric insulation with passive thermal management.
+The picture below is outdated , many of the pcbs got merged outside the tube enclosure...
 
 <p align="center">
   <img src="pictures/X-Ray_head_2026-Sep-12_04-07-46PM-000_CustomizedView2150125544_jpg.jpg" width="68%">
 </p>
 
 <p align="center">
-  <img src="cad/Screenshots/Screenshot%202026-10-18%20195632.png" width="68%">
+  <img src="pictures/xray_driver.png" width="68%">
 </p>
 
 <p align="center">
