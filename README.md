@@ -5,7 +5,7 @@
 RadiaX combines custom X-ray hardware, embedded computing, FPGA acceleration, a custom X-ray detector, and modular precision mechanics into a research-oriented CT platform.
 
 <p align="center">
-<img src="pictures/asemasem_2026-Aug-04_02-31-56AM-000_CustomizedView5246807532_jpg%20%282%29.jpg"
+<img src="pictures/radiax.png"
      width="100%"
      style="height: 500px; object-fit: fill;">
 </p>
